@@ -25,7 +25,7 @@ python forecast_res.py --dataset ETTm1 --pred_lens 336 --batch_sizes 20000 --epo
 python forecast_res.py --dataset ETTm1 --pred_lens 720 --batch_sizes 20000 --epoch 100 --clf_epoch 500 --stride 1 --lookback 200
 
 # =======================
-#   ETTh1
+#   ETTh1           #####
 # =======================
 python forecast_res.py --dataset ETTh1 --pred_lens 96 --batch_sizes 6000 --epoch 200 --clf_epoch 500 --stride 1 --lookback 128
 python forecast_res.py --dataset ETTh1 --pred_lens 192 --batch_sizes 6000 --epoch 200 --clf_epoch 500 --stride 1 --lookback 128
