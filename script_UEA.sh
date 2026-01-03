@@ -1,0 +1,32 @@
+#!/bin/bash
+
+python clf_res.py --dataset ArticularyWordRecognition --lookback 144 --stride 1 --batch_size 300 --epochs 300 --clf_epochs 200 --shuffle False
+python clf_res.py --dataset AtrialFibrillation --lookback 640 --stride 1 --batch_size 15 --epochs 300 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset BasicMotions --lookback 16 --stride 1 --batch_size 40 --epochs 300 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset CharacterTrajectories --lookback 180 --stride 1 --batch_size 300 --epochs 300 --clf_epochs 200 --shuffle False
+python clf_res.py --dataset Cricket --lookback 128 --stride 150 --batch_size 10 --epochs 200 --clf_epochs 50 --shuffle False
+python clf_res.py --dataset DuckDuckGeese --lookback 200 --stride 50 --batch_size 20 --epochs 150 --clf_epochs 50 --shuffle False
+python clf_res.py --dataset EigenWorms --lookback 17984 --stride 1 --batch_size 50 --epochs 300 --clf_epochs 50 --shuffle False
+python clf_res.py --dataset Epilepsy --lookback 160 --stride 1 --batch_size 150 --epochs 1000 --clf_epochs 200 --shuffle True
+python clf_res.py --dataset EthanolConcentration --lookback 1748 --stride 1 --batch_size 20 --epochs 100 --clf_epochs 40 --shuffle True
+python clf_res.py --dataset ERing --lookback 32 --stride 1 --batch_size 30 --epochs 100 --clf_epochs 150 --shuffle False
+python clf_res.py --dataset FaceDetection --lookback 60 --stride 1 --batch_size 1000 --epochs 300 --clf_epochs 150 --shuffle False
+python clf_res.py --dataset FingerMovements --lookback 32 --stride 1 --batch_size 30 --epochs 100 --clf_epochs 150 --shuffle False
+python clf_res.py --dataset HandMovementDirection --lookback 32 --stride 1 --batch_size 30 --epochs 100 --clf_epochs 150 --shuffle False
+python clf_res.py --dataset Handwriting --lookback 64 --stride 1 --batch_size 300 --epochs 600 --clf_epochs 400 --shuffle False
+python clf_res.py --dataset Heartbeat --lookback 160 --stride 5 --batch_size 20 --epochs 100 --clf_epochs 50 --shuffle True
+python clf_res.py --dataset JapaneseVowels --lookback 28 --stride 1 --batch_size 300 --epochs 300 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset Libras --lookback 44 --stride 1 --batch_size 90 --epochs 150 --clf_epochs 400 --shuffle False
+python clf_res.py --dataset LSST --lookback 32 --stride 1 --batch_size 100 --epochs 100 --clf_epochs 50 --shuffle True
+python clf_res.py --dataset InsectWingbeat --lookback 76 --stride 1 --batch_size 500 --epochs 500 --clf_epochs 300 --shuffle False
+python clf_res.py --dataset MotorImagery --lookback 1000 --stride 100 --batch_size 20 --epochs 100 --clf_epochs 80 --shuffle True
+python clf_res.py --dataset NATOPS --lookback 16 --stride 1 --batch_size 90 --epochs 100 --clf_epochs 100 --shuffle True
+python clf_res.py --dataset PenDigits --lookback 8 --stride 1 --batch_size 1000 --epochs 80 --clf_epochs 80 --shuffle True
+python clf_res.py --dataset PEMS-SF --lookback 128 --stride 10 --batch_size 10 --epochs 100 --clf_epochs 80 --shuffle True
+python clf_res.py --dataset Phoneme --lookback 216 --stride 1 --batch_size 400 --epochs 150 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset RacketSports --lookback 28 --stride 1 --batch_size 152 --epochs 100 --clf_epochs 1500 --shuffle False
+python clf_res.py --dataset SelfRegulationSCP1 --lookback 896 --stride 1 --batch_size 300 --epochs 300 --clf_epochs 200 --shuffle False
+python clf_res.py --dataset SelfRegulationSCP2 --lookback 1152 --stride 1 --batch_size 180 --epochs 300 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset SpokenArabicDigits --lookback 1152 --stride 1 --batch_size 180 --epochs 300 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset StandWalkJump --lookback 800 --stride 50 --batch_size 13 --epochs 100 --clf_epochs 100 --shuffle False
+python clf_res.py --dataset UWaveGestureLibrary --lookback 64 --stride 4 --batch_size 120 --epochs 150 --clf_epochs 100 --shuffle False
