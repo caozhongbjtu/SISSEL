@@ -43,3 +43,9 @@ Alternatively, you can run an individual script, for example:
 ```bash
 python clf_res.py --dataset AtrialFibrillation --lookback 640 --stride 1 --batch_size 15 --epochs 300 --clf_epochs 100 --shuffle False
 ```
+# Acknowledgments
+We thank them for providing the data preprocessing ideas and code：
+
+https://github.com/thuml/Time-Series-Library 
+
+https://github.com/zhihanyue/ts2vec
